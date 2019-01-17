@@ -1,0 +1,24 @@
+.columns{
+  width: 300px;
+  float: left;
+  margin: 30px;
+
+}
+
+h2 {
+  color: blue;
+}
+
+img {
+  width: 200px;
+}
+body {
+  background-color: pink;
+}
+
+.columns p a {
+  font-weight: bold;
+}
+.columns ul {
+  color: magenta
+}
