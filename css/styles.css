@@ -1,8 +1,7 @@
 .columns{
   width: 300px;
   float: left;
-  margin: 30px;
-
+  margin: 80px;
 }
 
 h2 {
@@ -11,7 +10,8 @@ h2 {
 
 img {
   width: 200px;
-}
+  }
+
 body {
   background-color: pink;
 }
@@ -21,4 +21,16 @@ body {
 }
 .columns ul {
   color: magenta
+}
+@media screen and (max-width:480px) and (min-width: 300px){
+  body{
+    background-color: lavender;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  .columns {
+    width: none;
+    float: center;
+    border: solid red;
+  }
 }
